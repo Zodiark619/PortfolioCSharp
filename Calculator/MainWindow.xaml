@@ -17,5 +17,12 @@
             <RowDefinition/>
 
         </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="50"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="42,26,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="input1"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="44,61,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="input2"/>
+
+        <Label Content="Input numbers here" HorizontalAlignment="Left" Margin="62,133,0,0" VerticalAlignment="Top" FontSize="31"/>
+        <Button x:Name="addition" Content="+" HorizontalAlignment="Left" Margin="289,62,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="30" Click="addition_Click"/>
+
     </Grid>
 </Window>
